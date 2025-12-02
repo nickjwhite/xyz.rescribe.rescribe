@@ -19,14 +19,14 @@ modules:
     sources:
       - type: git
         url: https://github.com/DanBloomberg/leptonica
-        tag: 1.85.0
-        commit: 63aef18d98432b8582a1565e241f7bd2ee9cc8d9
+        tag: 1.86.0
+        commit: dbb48b0fd0e10e943ecd9bab7439701842894733
   - name: tesseract-ocr
     sources:
       - type: git
         url: https://github.com/tesseract-ocr/tesseract
-        tag: 5.5.0
-        commit: 64eab6c457b2337dd690746a5fde5c222b40d5f8
+        tag: 5.5.1
+        commit: 3b7c70e34dea179549ed3e995872e2e019eb8477
   - name: getxbook
     buildsystem: simple
     build-commands:
